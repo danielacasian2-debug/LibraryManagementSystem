@@ -1,0 +1,55 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+nav{
+    background-color: #1e293b;
+    color:white;
+    display:flex;
+    align-items: center;
+    padding:15px 40px;
+
+}
+nav a{
+    color:white
+}
+nav div{
+    display:flex;
+    gap:20px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.hero{
+    text-align: center;
+    padding: 80px 40px;
+}
+.hero button{
+    background-color: #1e293b;
+    color:white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+}
+
+.books-conteiner{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+.books-conteiner img{
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+}
+footer{
+    background-color: #1e293b;
+    color:#f5f5f5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+   
+
+}
